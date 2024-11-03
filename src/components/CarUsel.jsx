@@ -14,7 +14,8 @@ const CarUsel = ({ project }) => {
     return (
         <div className='flex flex-col items-center justify-center mb-4 relative rounded-lg'>
             <img 
-                src={`/public/imgs/${project.imgs[currentIndex]}`} 
+                src={`/imgs/${project.imgs[currentIndex]}`}
+
                 alt={`${project.title} image ${currentIndex + 1}`} 
                 className=' p-4 rounded-lg shadow-md transition-transform duration-300 transform '
             />
