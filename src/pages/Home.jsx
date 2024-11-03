@@ -7,9 +7,9 @@ import Projects from '../components/Projects';
 
 const Home = () => {
   return (
-    <div className='flex flex-col md:flex-row h-screen bg-cover bg-center'>
+    <div className='flex  h-screen bg-cover bg-center'>
       <div className="hidden md:flex flex-1 bg-black">1st</div>
-      <div className="flex-1 overflow-auto p-4">
+      <div className="flex-1 overflow-auto ">
         <Statusbar />
         <Widgets />
         <Info />
