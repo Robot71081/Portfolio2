@@ -5,39 +5,40 @@ import { SiGooglegemini } from "react-icons/si";
 import { PiWhatsappLogoBold  } from "react-icons/pi";
 import { GoDotFill } from "react-icons/go";
 import { FaHome } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const Projects = () => {
   return (
     <>
     <div className='flex flex-row justify-center mt-6 space-x-6'>
-    <div className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
+    <Link to='/projects' className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
     <div className='flex items-center justify-center bg-black text-white text-5xl md:text-6xl rounded-3xl shadow-lg w-20 md:w-24 h-20 md:h-24 hover:shadow-2xl transition-shadow duration-300'>
         <IoLogoGooglePlaystore />
     </div>
     <span className="text-sm mt-2 font-semibold text-center">Project Store</span>
-</div>
+</Link>
 
-<div className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
+<a href='https://i-note-frontend.vercel.app' className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
     <div className='flex items-center justify-center bg-black text-white text-5xl md:text-6xl rounded-3xl shadow-lg w-20 md:w-24 h-20 md:h-24 hover:shadow-2xl transition-shadow duration-300'>
         <GrNotes />
     </div>
     <span className="text-sm mt-2 font-semibold text-center">iNote</span>
-</div>
+</a>
 
-<div className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
+<a href='https://jem-robot71081s-projects.vercel.app/' className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
     <div className='flex items-center justify-center bg-black text-white text-5xl md:text-6xl rounded-3xl shadow-lg w-20 md:w-24 h-20 md:h-24 hover:shadow-2xl transition-shadow duration-300'>
        <SiGooglegemini />
     </div>
     <span className="text-sm mt-2 font-semibold text-center">Jem</span>
-</div>
+</a>
 
-<div className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
+<a href='https://sandesh-frontend-neon.vercel.app/' className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
     <div className='flex items-center justify-center bg-black text-white text-5xl md:text-6xl rounded-3xl shadow-lg w-20 md:w-24 h-20 md:h-24 hover:shadow-2xl transition-shadow duration-300'>
        <PiWhatsappLogoBold />
     </div>
     <span className="text-sm mt-2 font-semibold text-center">Sandesh</span>
-</div>
+</a>
 
 
     

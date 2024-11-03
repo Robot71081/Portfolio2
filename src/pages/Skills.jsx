@@ -12,6 +12,9 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiJsonwebtokens } from "react-icons/si";
 import { SiSocketdotio } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 
 const Skills = () => {
     const navigate=useNavigate()
@@ -19,7 +22,7 @@ const Skills = () => {
 
     <div className='flex flex-row h-screen bg-cover bg-center  '>
     <div className="hidden md:flex flex-1 bg-black">1st</div>
-    <div className="flex-1 ">
+    <div className="flex-1 overflow-auto ">
     <Statusbar/>
      <div className="flex items-center mb-6 mt-2">
     <IoMdArrowRoundBack 
@@ -82,7 +85,7 @@ const Skills = () => {
             
         </span>
         <span className='flex items-center justify-center space-x-2 w-38 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
-            <FaNodeJs />
+           
             <span>Express.js</span>
         </span>
         <span className='flex items-center justify-center space-x-2 w-32 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
@@ -92,19 +95,79 @@ const Skills = () => {
     </div>
 
     <div className="flex flex-row space-x-4 mb-2">
-    <span className='flex items-center justify-center space-x-2 w-32 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
+    <span className='flex items-center justify-center space-x-2 w-40 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
         <SiSocketdotio />
         <span>Socket.io </span>
     </span>
-    <span className='flex items-center justify-center space-x-2 w-32 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
-        <SiMongodb />
-        <span>MongoDb</span>
-    </span>
-    <span className='flex items-center justify-center space-x-2 w-32 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
-      
+    <span className='flex items-center justify-center space-x-2 w-40 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
+        
         <span>Mongoose</span>
     </span>
+   
     </div>
+
+  
+    
+  
+</div>
+
+
+
+
+      
+      
+    </div>
+
+    <div className="bg-black text-white rounded-3xl shadow-md p-6 mb-4   ">
+<h3 className="text-3xl font-bold mb-2 text-center ">Database</h3>
+<div className="flex flex-col mt-8">
+    <div className="flex flex-row space-x-4 mb-2">
+        <span className='flex items-center justify-center space-x-2 w-40 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
+            <SiMongodb  />
+            <span>MongoDb</span>
+            
+        </span>
+        <span className='flex items-center justify-center space-x-2 w-40 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
+           <SiMysql/>
+            <span>MySQL</span>
+        </span>
+       
+    </div>
+
+  
+
+  
+    
+  
+</div>
+
+
+
+
+      
+      
+    </div>
+
+    
+    <div className="bg-black text-white rounded-3xl shadow-md p-6 mb-4   ">
+<h3 className="text-3xl font-bold mb-2 text-center ">Tools</h3>
+<div className="flex flex-col mt-8">
+    <div className="flex flex-row space-x-4 mb-2">
+        <span className='flex items-center justify-center space-x-2 w-40 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
+            <FaGithub  />
+            <span>Github</span>
+            
+        </span>
+        <span className='flex items-center justify-center space-x-2 w-40 font-semibold bg-white text-black text-2xl rounded-3xl p-3'>
+           <SiPostman/>
+            <span>Postman</span>
+        </span>
+       
+    </div>
+
+  
+
+  
     
   
 </div>
