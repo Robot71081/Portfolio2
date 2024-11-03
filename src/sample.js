@@ -4,10 +4,10 @@ const sample=[
         "title": "Sandesh",
         "imgs": [
             "sandesh1.JPG",
-            "sandesh2.jpg",
-            "sandesh3.jpg",
-            "sandesh4.jpg",
-            "sandesh5.jpg",
+            "sandesh2.JPG",
+            "sandesh3.JPG",
+            "sandesh4.JPG",
+            "sandesh5.JPG",
           ],
         "color": "yellow",
         "preview": "A Chat web app for chatting with friends.",
@@ -36,8 +36,8 @@ const sample=[
         "id": 3,
         "title": "iNote",
         "imgs": [
-            "note2.jpg",
-            "note1.jpg"
+            "note2.JPG",
+            "note1.JPG"
           
           ],
         "color": "red",
@@ -52,11 +52,11 @@ const sample=[
         "id": 4,
         "title": "Bookish",
         "imgs": [
-            "book1.jpg",
-            "book2.jpg",
-            "book3.jpg",
-            "book4.jpg",
-            "book5.jpg",
+            "book1.JPG",
+            "book2.JPG",
+            "book3.JPG",
+            "book4.JPG",
+            "book5.JPG",
           
           ],
         "color": "yellow",
@@ -71,10 +71,10 @@ const sample=[
         "id": 5,
         "title": "Offline Library Management",
         "imgs": [
-            "lib1.jpg",
-            "lib2.jpg",
-            "lib3.jpg",
-            "lib4.jpg",
+            "lib1.JPG",
+            "lib2.JPG",
+            "lib3.JPG",
+            "lib4.JPG",
             
           
           ],
