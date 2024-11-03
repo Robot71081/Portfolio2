@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const AppIcons = () => {
   return (
-    <div className='flex flex-row justify-center mt-6 space-x-6 '> {/* Adjust space-x-6 for horizontal spacing */}
+    <div className='flex flex-row justify-center mt-6 gap-4'> {/* Adjust space-x-6 for horizontal spacing */}
    <Link 
     to="/education" 
     className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'

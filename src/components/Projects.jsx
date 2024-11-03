@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   return (
     <>
-    <div className='flex flex-row justify-center mt-6 space-x-6'>
+    <div className='flex flex-row justify-center gap-4 mt-6 '>
     <Link to='/projects' className='flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out'>
     <div className='flex items-center justify-center bg-black text-white text-5xl md:text-6xl rounded-3xl shadow-lg w-20 md:w-24 h-20 md:h-24 hover:shadow-2xl transition-shadow duration-300'>
         <IoLogoGooglePlaystore />

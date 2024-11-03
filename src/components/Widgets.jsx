@@ -20,8 +20,8 @@ const Widgets = () => {
      
       <Clock value={value} />
     </div>
-    <div className="flex flex-col items-center justify-center bg-black rounded-3xl shadow-lg text-white w-[230px] h-40 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-  <span className="text-2xl font-bold">Rohit Pawar</span>
+    <div className="flex flex-col items-center text-center justify-center bg-black rounded-3xl shadow-lg text-white w-[230px] h-40 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
+  <span className="text-2xl font-bold text-center">Rohit Pawar</span>
   <span className="text-lg">Web Developer</span>
 </div>
 
